@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7BE69"
+    android:orientation="vertical"
+    tools:context=".Details">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:background="#FFD700"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        android:paddingTop="30dp"
+        android:id="@+id/intro"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Please confirm your details"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="#A0522D"/>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail :"
+        android:textColor="#A0522D"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/em"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textColor="#A0522D"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textColor="#A0522D"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textColor="#A0522D"
+        android:textSize="18sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:id="@+id/b2"/>
+
+
+
+</LinearLayout>

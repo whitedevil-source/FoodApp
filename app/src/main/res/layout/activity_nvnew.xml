@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D7BE69"
+    tools:context=".frag1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHICKEN BUTTER MASALA"
+        android:textColor="#A0522D"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="MRP- 300 INR"
+            android:textColor="#A0522D"
+            android:layout_marginTop="2dp"
+            android:textSize="25sp"
+            android:id="@+id/tv1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nv1"
+            android:text="ADD"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/tv1"
+            android:onClick="add_to_list_n"
+            android:gravity="center" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MUTTON KORMA"
+        android:textSize="25sp"
+        android:textColor="#A0522D"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="MRP- 400 INR"
+            android:textColor="#A0522D"
+            android:layout_marginTop="2dp"
+            android:textSize="25sp"
+            android:id="@+id/tv2"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nv2"
+            android:text="ADD"
+            android:onClick="add_to_list_n"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/tv2"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRAWN CHILLI"
+        android:textSize="25sp"
+        android:textColor="#A0522D"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="MRP- 320 INR"
+            android:textColor="#A0522D"
+            android:layout_marginTop="2dp"
+            android:textSize="25sp"
+            android:id="@+id/tv3"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nv3"
+            android:text="ADD"
+            android:onClick="add_to_list_n"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/tv3"
+            android:gravity="center" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EGG MASALA"
+        android:textSize="25sp"
+        android:textColor="#A0522D"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="MRP- 160 INR"
+            android:textColor="#A0522D"
+            android:layout_marginTop="2dp"
+            android:textSize="25sp"
+            android:id="@+id/tv4"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nv4"
+            android:text="ADD"
+            android:onClick="add_to_list_n"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/tv4"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="VIEW CART"
+        android:onClick="view_cart_n"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/b8"/>
+
+
+</LinearLayout>

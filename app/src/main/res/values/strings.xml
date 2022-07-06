@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">foodapp</string>
+    <string name="vegin">The veg menu consists of Paneer Butter Masala, Mushroom Chilli, Veg Manchurian and Malai Kofta. To select press the move button </string>
+    <string name="nonvegin">The non-veg menu consists of Chicken Butter Masala, Mutton Korma, Prawn Chilli and Egg Masala. To select press the move button</string>
+    <string name="vc">Your veg items appear here. If you select non-veg, you cannot opt veg</string>
+    <string name="nvc">Your non-veg items appear here. If you select veg, you cannot opt non-veg</string>
+</resources>
